@@ -32,7 +32,7 @@ public class Main {
             grid[chosenrow][chosencol] = player;
             printGrid(grid);
             if (checkdiagonals(grid)|| checkrows(grid) || checkcols(grid)){
-                System.out.println( player + " Nakak!!!!!!!!!");
+                System.out.println( player + " won!");
                 break;
             }
 
@@ -45,7 +45,7 @@ public class Main {
         }
 
         if (!(checkdiagonals(grid)|| checkrows(grid) || checkcols(grid))){
-            System.out.println("eh el5ara dah");
+            System.out.println("It's a draw!");
 
         }
 
